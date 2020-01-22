@@ -1,0 +1,24 @@
+{
+  "name": "stylemark-demo",
+  "version": "1.0.0",
+  "description": "Demo stylemark style guide generator.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "concurrently \"npm:clean\" \"parcel index.html main.css\" \"stylemark -i ./src/scss -o dist/styleguide -c ./stylemark.yml -w -b\"",
+    "prestart": "rm -rf dist",
+    "start": "parcel index.html main.css",
+    "stylemark": "stylemark -i ./src/scss -o dist/styleguide -c ./stylemark.yml -w -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:teeehn/stylemark-demo.git",
+  "keywords": [],
+  "author": "Tom Nicolosi",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0",
+    "stylemark": "^3.1.3"
+  }
+}

@@ -1,0 +1,9 @@
+name: Stylemark Demo
+examples:
+  css:
+  - dist/main.css
+  bodyHtml: |
+    <div class="styleguide--example">
+      {html}
+    </div>
+  

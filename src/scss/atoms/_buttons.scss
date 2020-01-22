@@ -1,0 +1,38 @@
+/*
+---
+name: Button
+category: Components
+---
+
+Buttons can be used with `<a>`, `<button>`, and `<input>` elements.
+
+Types of buttons:
+- Default: Standard button
+- Primary: Provides extra visual weight and identifies the primary action in a set of buttons
+- Success: Indicates a successful or positive action
+
+```types.html
+<button class="btn btn-default">Default</button>
+<button class="btn btn-primary">Primary</button>
+```
+*/
+
+.btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 200px;
+    padding: 1rem 1.5rem;
+}
+
+.btn-default {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.btn-primary {
+    background-color: darkred;
+    color: white;
+}
