@@ -1,5 +1,3 @@
-# Stylemark Demo
+# Glide Carousel Demo
 
-This is a simple demo of the [Stylemark](https://github.com/mpetrovich/stylemark) styleguide generator. 
-
-It includes a very basic project utilizing [parcel-bundler](https://github.com/parcel-bundler/parcel).
+This demo includes the [Stylemark](https://github.com/mpetrovich/stylemark) styleguide generator and utilizes [parcel-bundler](https://github.com/parcel-bundler/parcel).
