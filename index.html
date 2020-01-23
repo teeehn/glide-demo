@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stylemark demo</title>
+    <title>Glide carousel demo</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -18,10 +18,26 @@
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
-                    <li class="glide__slide"><div class="slide-card">0</div></li>
-                    <li class="glide__slide"><div class="slide-card">1</div></li>
-                    <li class="glide__slide"><div class="slide-card">2</div></li>
+                        <li class="glide__slide">
+                            <div class="slide-card">
+                                <div class="slide-card--inner">0</div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="slide-card">
+                                <div class="slide-card--inner">1</div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="slide-card">
+                                <div class="slide-card--inner">2</div>
+                            </div>
+                        </li>
                     </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
                 </div>
             </div>
         </main>
